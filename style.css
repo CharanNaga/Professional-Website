@@ -22,3 +22,7 @@
         "XROT" 0,
         "YROT" 0;
 }
+.full-width{
+    width: 100%;
+    height: auto;
+}
