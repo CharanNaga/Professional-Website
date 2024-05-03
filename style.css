@@ -1,10 +1,10 @@
-.navbar-brand img {
-    width: 37px;
-    height: 37px;
+/* .brand-icon img {
+    width: 25px;
+    height: 25px;
     margin-top: -5px;
     border-radius: 50%;
-    margin-left: -7px;
-}
+    margin-left: -5px;
+} */
 
 .brand-gradient {
     background: #155dba;
@@ -36,4 +36,8 @@
     background-image: url(img/subscribe.jpg);
     background-position: center;
     background-size: cover;
+}
+
+.address-gradient{
+    background-color: #91979767;
 }
