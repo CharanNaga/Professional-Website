@@ -46,3 +46,10 @@
     backdrop-filter: blur(8px);
     background-color: rgb(255 255 255 / 30%);
 }
+
+.custom-button{
+    --bs-btn-bg: rgb(220, 68, 237);
+    --bs-btn-color: white;
+    --bs-btn-hover-bg: rgb(158, 2, 176);
+    --bs-btn-hover-color: white;
+}
