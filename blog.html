@@ -105,9 +105,7 @@
                         </h2>
                         <a href="#"
                             class="btn btn-sm btn-success my-2 align-items-center d-inline-flex justify-content-center"
-                            data-bs-toggle="modal"
-                            data-bs-target="#subscribe-modal"
-                            >
+                            data-bs-toggle="modal" data-bs-target="#subscribe-modal">
                             <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor"
                                 class="bi bi-envelope-check-fill me-1" viewBox="0 0 16 16">
                                 <path
@@ -527,9 +525,8 @@
     <!-- Sticky Footer -->
 
     <!-- Subscribe Modal -->
-    <div class="modal fade" id="subscribe-modal" aria-labelledby="subscribe-modal"
-        data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-hidden="true"
-        style="backdrop-filter: blur(8px);">
+    <div class="modal fade" id="subscribe-modal" aria-labelledby="subscribe-modal" data-bs-backdrop="static"
+        data-bs-keyboard="false" tabindex="-1" aria-hidden="true" style="backdrop-filter: blur(8px);">
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-header text-bg-dark">
@@ -538,7 +535,58 @@
                         aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    
+                    <form>
+                        <div class="row gx-2">
+                            <div class="col-md-6">
+                                <div class="mb-2">
+                                    <input type="text" class="form-control form-control-sm" placeholder="First Name"
+                                        required>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="mb-2">
+                                    <input type="text" class="form-control form-control-sm" placeholder="Last Name"
+                                        required>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="mb-2">
+                                    <input type="email" class="form-control form-control-sm" placeholder="Email Address"
+                                        required>
+                                </div>
+                            </div>
+                            <div class="col-md-9">
+                                <div class="d-grid">
+                                    <button type="submit"
+                                        class="btn btn-sm btn-success d-inline-flex align-items-center justify-content-center">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13"
+                                            fill="currentColor" class="bi bi-envelope-check-fill me-1" viewBox="0 0 16 16">
+                                            <path
+                                                d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.026A2 2 0 0 0 2 14h6.256A4.5 4.5 0 0 1 8 12.5a4.49 4.49 0 0 1 1.606-3.446l-.367-.225L8 9.586zM16 4.697v4.974A4.5 4.5 0 0 0 12.5 8a4.5 4.5 0 0 0-1.965.45l-.338-.207z" />
+                                            <path
+                                                d="M16 12.5a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0m-1.993-1.679a.5.5 0 0 0-.686.172l-1.17 1.95-.547-.547a.5.5 0 0 0-.708.708l.774.773a.75.75 0 0 0 1.174-.144l1.335-2.226a.5.5 0 0 0-.172-.686" />
+                                        </svg>
+                                        Subscribe
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="d-grid">
+                                    <button type="button" class="btn btn-sm btn-secondary d-inline-flex align-items-center justify-content-center" 
+                                        data-bs-dismiss="modal" aria-label="Close">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13"
+                                            fill="currentColor" class="bi bi-box-arrow-left me-1" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd"
+                                                d="M6 12.5a.5.5 0 0 0 .5.5h8a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-8a.5.5 0 0 0-.5.5v2a.5.5 0 0 1-1 0v-2A1.5 1.5 0 0 1 6.5 2h8A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-8A1.5 1.5 0 0 1 5 12.5v-2a.5.5 0 0 1 1 0z" />
+                                            <path fill-rule="evenodd"
+                                                d="M.146 8.354a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L1.707 7.5H10.5a.5.5 0 0 1 0 1H1.707l2.147 2.146a.5.5 0 0 1-.708.708z" />
+                                        </svg>
+                                        Close
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
