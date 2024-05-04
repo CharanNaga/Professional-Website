@@ -104,7 +104,10 @@
                             doloribus.
                         </h2>
                         <a href="#"
-                            class="btn btn-sm btn-success my-2 align-items-center d-inline-flex justify-content-center">
+                            class="btn btn-sm btn-success my-2 align-items-center d-inline-flex justify-content-center"
+                            data-bs-toggle="modal"
+                            data-bs-target="#subscribe-modal"
+                            >
                             <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor"
                                 class="bi bi-envelope-check-fill me-1" viewBox="0 0 16 16">
                                 <path
@@ -522,6 +525,25 @@
         </a>
     </div>
     <!-- Sticky Footer -->
+
+    <!-- Subscribe Modal -->
+    <div class="modal fade" id="subscribe-modal" aria-labelledby="subscribe-modal"
+        data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-hidden="true"
+        style="backdrop-filter: blur(8px);">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header text-bg-dark">
+                    <h5 class="modal-title">Subscribe to Newsletters</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Subscribe Modal -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
